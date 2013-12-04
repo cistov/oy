@@ -1,7 +1,7 @@
 {
   "name": "oy",
   "version": "0.0.1",
-  "description": "Analysis tool for London Oyster card history statements",
+  "description": "Analysis tool for London Oyster card statements",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
