@@ -16,7 +16,7 @@
   ],
   "author": "Artur Cistov",
   "license": "MIT",
-  "readme": "README.md",
+  "readmeFilename": "README.md",
   "dependencies": {
     "csv": "0.3.3",
     "timeTraveller": "0.2.1",
