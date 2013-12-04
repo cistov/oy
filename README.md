@@ -2,7 +2,12 @@
 
 _oy_ is a library for analysis of London Oyster card history statements.
 
-## Example
+## Installation
+
+    $ npm install oy --save
+
+## Usage
+
 ```javascript
 var fs = require('fs'),
     oy = require('oy');
@@ -47,10 +52,6 @@ Structure of a journey object:
   }
 }
 ```
-
-## Installation
-
-    $ npm install oy --save
 
 ## Running tests
 
