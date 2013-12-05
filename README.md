@@ -2,7 +2,7 @@
 
 _oy_ is a library for analysis of London Oyster card history statements.
 
-[![Build Status](https://travis-ci.org/[cistov]/[oy].png)](https://travis-ci.org/[cistov]/[oy])
+[![Build Status](https://travis-ci.org/cistov/oy.png)](https://travis-ci.org/cistov/oy)
 
 ## Installation
 
