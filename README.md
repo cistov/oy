@@ -3,6 +3,8 @@
 _oy_ is a library for analysis of London Oyster card history statements.
 
 [![Build Status](https://travis-ci.org/cistov/oy.png)](https://travis-ci.org/cistov/oy)
+[![Code Climate](https://codeclimate.com/github/cistov/oy.png)](https://codeclimate.com/github/cistov/oy)
+[![NPM version](https://badge.fury.io/js/oy.png)](http://badge.fury.io/js/oy)
 
 ## Installation
 
@@ -11,13 +13,11 @@ _oy_ is a library for analysis of London Oyster card history statements.
 ## Usage
 
 ```javascript
-var fs = require('fs'),
-    oy = require('oy');
-var input = fs.readFileSync('./test/fixtures/sample.csv', 'utf-8');
+var oy = require('oy');
 
-oy.parse(input, function(err, data) {
+oy.parse(csvData, function(err, data) {
   if(err) { /* handle error */ }
-  // 'data' holds an array of journey objects
+  console.log(data);
 });
 ```
 
