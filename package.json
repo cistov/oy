@@ -18,10 +18,10 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "csv": "0.3.3",
-    "timeTraveller": "0.2.1",
-    "stdev": "0.0.1",
-    "statsjs": "1.0.6"
+    "csv": "~0.3.3",
+    "timeTraveller": "~0.2.1",
+    "stdev": "~0.0.1",
+    "statsjs": "~1.0.6"
   },
   "devDependencies": {
     "should": "~2.1.0",
