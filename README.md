@@ -3,6 +3,7 @@
 _oy_ is a library for analysis of London Oyster card history statements.
 
 [![Build Status](https://travis-ci.org/cistov/oy.png)](https://travis-ci.org/cistov/oy)
+[![Coverage Status](https://coveralls.io/repos/cistov/oy/badge.png?branch=master)](https://coveralls.io/r/cistov/oy?branch=master)
 [![Dependency Status](https://gemnasium.com/cistov/oy.png)](https://gemnasium.com/cistov/oy)
 [![Code Climate](https://codeclimate.com/github/cistov/oy.png)](https://codeclimate.com/github/cistov/oy)
 [![NPM version](https://badge.fury.io/js/oy.png)](http://badge.fury.io/js/oy)
