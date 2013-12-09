@@ -4,7 +4,7 @@
   "description": "Analysis tool for London Oyster card statements",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec",
     "lint": "./node_modules/.bin/jshint ./lib/*",
     "cr": "./node_modules/.bin/cr ./lib"
   },
@@ -23,7 +23,8 @@
     "csv": "~0.3.3",
     "timeTraveller": "~0.2.1",
     "stdev": "~0.0.1",
-    "statsjs": "~1.0.6"
+    "statsjs": "~1.0.6",
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "should": "~2.1.0",

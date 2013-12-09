@@ -272,4 +272,17 @@ describe('Parser', function() {
 
   });
 
+  describe('Parsing', function() {
+
+    it('Row count', function(done) {
+        var input = fs.readFileSync('./test/fixtures/sample.csv', 'utf-8');
+        Parser.parse(input, function(err, data) {
+          if(err) { return done(err); }
+          should.equal(data.length, 18);
+          done();
+        });
+    });
+
+  });
+
 });
