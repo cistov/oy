@@ -9,7 +9,7 @@ _oy_ is a library for analysis of London Oyster card history statements.
 
 ## Installation
 
-    $ npm install oy --save
+    npm install oy --save
 
 ## Usage
 
@@ -24,9 +24,7 @@ oy.parse(csvData, function(err, data) {
 
 ## Running tests
 
-To run the tests:
-
-    $ npm test
+    npm test
 
 ## License
 
