@@ -1,0 +1,16 @@
+{
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "globalstrict": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "node": true,
+    "nonew": true,
+    "quotmark": "double",
+    "trailing": true,
+    "undef": true,
+    "unused": true
+}

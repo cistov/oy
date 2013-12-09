@@ -6,7 +6,6 @@ _oy_ is a library for analysis of London Oyster card history statements.
 [![Coverage Status](https://coveralls.io/repos/cistov/oy/badge.png?branch=master)](https://coveralls.io/r/cistov/oy?branch=master)
 [![Dependency Status](https://gemnasium.com/cistov/oy.png)](https://gemnasium.com/cistov/oy)
 [![Code Climate](https://codeclimate.com/github/cistov/oy.png)](https://codeclimate.com/github/cistov/oy)
-[![NPM version](https://badge.fury.io/js/oy.png)](http://badge.fury.io/js/oy)
 
 ## Installation
 
@@ -23,40 +22,6 @@ oy.parse(csvData, function(err, data) {
 });
 ```
 
-Structure of a journey object:
-
-```javascript
-{
-  note: '',
-  date: '01-Nov-2013',
-  startTime: '12:49',
-  startDate: Fri Nov 01 2013 12:49:00 GMT+0000 (GMT),
-  endTime: '13:02',
-  endDate: Fri Nov 01 2013 13:02:00 GMT+0000 (GMT),
-  duration: {
-     inMilliseconds: 780000,
-     inSeconds: 780,
-     inMinutes: 13,
-     inHours: 0,
-     inDays: 0,
-     inMonths: 0,
-     inYears: 0
-  },
-  description: 'Liverpool Street [London Underground] to Tottenham Court Road',
-  charge: 0,
-  credit: 0,
-  balance: 7.6,
-  to: {
-    text: 'Tottenham Court Road',
-    type: 'underground'
-  },
-  from: {
-    text: 'Liverpool Street [London Underground]',
-    type: 'underground'
-  }
-}
-```
-
 ## Running tests
 
 To run the tests:
@@ -65,4 +30,4 @@ To run the tests:
 
 ## License
 
-MIT © [Artur Cistov](http://cistov.com)
+[MIT](https://github.com/cistov/yo/blob/master/MIT-LICENSE.txt)
