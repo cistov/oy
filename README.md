@@ -30,4 +30,4 @@ To run the tests:
 
 ## License
 
-[MIT](https://github.com/cistov/yo/blob/master/MIT-LICENSE.txt)
+[MIT](https://github.com/cistov/oy/blob/master/MIT-LICENSE.txt)
