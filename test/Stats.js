@@ -5,10 +5,11 @@ var fs = require('fs'),
 
 describe('Stats', function() {
 
-  describe('Generating reports', function() {
+  describe('Reports', function() {
 
-    it('Row count', function() {
+    it('Generation', function() {
         var stats = Stats.generate(sampleData);
+        console.log(JSON.stringify(stats));
     });
 
   });
