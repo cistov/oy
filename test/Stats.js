@@ -50,6 +50,7 @@ describe('Stats', function() {
     it('Metric formatting', function() {
       var journey = stats[8];
       journey.durations.should.have.property('data');
+      journey.durations.data.should.have.property('length', 4);
       journey.durations.should.have.property('stats');
       journey.durations.stats.should.have.property('stdev', 1.29);
     });
