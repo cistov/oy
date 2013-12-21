@@ -278,7 +278,7 @@ describe('Parser', function() {
         var input = fs.readFileSync('./test/fixtures/sample.csv', 'utf-8');
         Parser.parse(input, function(err, data) {
           if(err) { return done(err); }
-          should.equal(data.length, 18);
+          should.equal(data.length, 17);
           done();
         });
     });

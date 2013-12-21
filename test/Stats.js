@@ -47,6 +47,18 @@ describe('Stats', function() {
       journey.times.should.have.property('stats');
     });
 
+    it('Metric formatting', function() {
+      var journey = stats[8];
+      journey.durations.should.have.property('data');
+      journey.durations.should.have.property('stats');
+      journey.durations.stats.should.have.property('stdev', 1.29);
+    });
+
+    it('Reset', function() {
+      Stats.reset();
+      Stats.journeys.should.have.property('length', 0);
+    });
+
   });
 
 });
