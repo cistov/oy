@@ -28,4 +28,4 @@ oy.parse(csvData, function(err, data) {
 
 ## License
 
-[MIT](https://github.com/cistov/oy/blob/master/MIT-LICENSE.txt)
+[MIT](MIT-LICENSE.txt)
