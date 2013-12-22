@@ -64,7 +64,7 @@ Data variable in the example above is an array consisting of multiple __journey_
 
 ## Release history
 
-[Changelog](CHANGELOG)
+[Changelog](CHANGELOG.md)
 
 ## Tests
 
