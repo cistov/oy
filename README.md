@@ -62,10 +62,14 @@ Data variable in the example above is an array consisting of multiple __journey_
   }
 ```
 
-## Running tests
+## Release history
+
+[Changelog](CHANGELOG)
+
+## Tests
 
     npm test
 
 ## License
 
-[MIT](MIT-LICENSE.txt)
+[MIT](LICENSE)
