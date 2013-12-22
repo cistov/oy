@@ -22,7 +22,6 @@
   "dependencies": {
     "csv": "~0.3.3",
     "timeTraveller": "~0.2.1",
-    "stdev": "~0.0.1",
     "statsjs": "~1.0.6",
     "underscore": "~1.5.2"
   },
